@@ -7,6 +7,10 @@
 # number2 -= number1
 # puts number2
 
-puts "Give me a number."
-my_number = (gets.to_i + 5)(2) - 4
-puts my_number
+def always_three
+    puts "Give me a number."
+    number = Integer(gets) 
+    puts number2 = (((number + 5) * 2) - 4) / 2 - number
+end
+
+always_three
