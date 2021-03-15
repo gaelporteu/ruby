@@ -1,7 +1,9 @@
-# current_time = Time.now
-# while (current_time < Float::INFINITY)
-#     puts "I love you"
-# end
+current_time = Time.now
+current_time = current_time.to_i
+while (current_time < Float::INFINITY)
+    puts "I love time"
+    break
+end
 
 puts "Are you good? Please answer Y/N"
 answer = gets.chomp.downcase
