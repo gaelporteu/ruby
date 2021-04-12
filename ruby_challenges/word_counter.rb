@@ -92,4 +92,14 @@ end
 # end
 # => case statements in Ruby can allow ranges
 
-# More changes
+# More ways to deal with exeptions in Ruby Error Management
+# begin # login function that can raise an exeption or error
+#     login()
+# rescue UnknownUsernameError => e # this will raise a unknown username error the e will store the typed username
+#     log(e)
+#     raise e
+# else # if there is no error it says Welcome back
+#     puts "Welcome Back!"
+# ensure # this is a cleanup code if there was an error it reloads the login screen
+#     log("User login")
+# end
