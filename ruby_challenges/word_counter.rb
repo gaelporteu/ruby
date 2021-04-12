@@ -1,4 +1,5 @@
 TEXT_FILE = "romeo-juliet.txt"
+EXEPTION_FILE = "hamlet.txt"
 # words = File.read(text_file).downcase.gsub(/[^a-z]/, " ").split
 
 # Load the words from a file
@@ -11,8 +12,17 @@ def words_from_file(text_file)
     end # End of exeption handler
 end
 
+
+
 # Load the list of words in the file
 words = words_from_file(TEXT_FILE)
+# uniq is an array method that removes duplicates
+words_to_remove = words_from_file(EXEPTION_FILE).uniq
+
+# removes all of the words that appear in the EXEPTION_FILE
+words_to_remove.each do |word|
+    words.delete word
+end
 
 # Create a dictionary of word counts
 word_count = {}
@@ -25,6 +35,11 @@ words.each do |word|
     # ..else increment its count
     word_count[word] += 1
 end
+
+# puts word_count.sort_by {|key, value| order}.reverse[0..40] # this sorts from 0 to 40 [0...40] sorts from 0 to 39
+word_count.sort_by {|word, count| count}
+            .reverse[0...40]
+            .each {|word, count| puts "#{word}: #{count}"}
     
     # # Another way of writing this if statement in Ruby 
     # word_count[word] = 0 unless word_count[word]
