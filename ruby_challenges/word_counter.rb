@@ -12,7 +12,7 @@ def words_from_file(text_file)
     end # End of exeption handler
 end
 
-
+#today
 
 # Load the list of words in the file
 words = words_from_file(TEXT_FILE)
