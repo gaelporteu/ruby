@@ -2,8 +2,6 @@ TEXT_FILE = "romeo-juliet.txt"
 EXEPTION_FILE = "hamlet.txt"
 # words = File.read(text_file).downcase.gsub(/[^a-z]/, " ").split
 
-# exceptional
-
 # Load the words from a file
 def words_from_file(text_file)
     begin # Exeption handler if file is missing or not named properly
