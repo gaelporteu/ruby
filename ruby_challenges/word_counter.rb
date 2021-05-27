@@ -1,3 +1,5 @@
+# do i really need this?
+
 TEXT_FILE = "romeo-juliet.txt"
 EXEPTION_FILE = "hamlet.txt"
 # words = File.read(text_file).downcase.gsub(/[^a-z]/, " ").split
