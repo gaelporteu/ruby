@@ -1,4 +1,4 @@
-# do i really need this?
+# i ate something earlier
 
 TEXT_FILE = "romeo-juliet.txt"
 EXEPTION_FILE = "hamlet.txt"
