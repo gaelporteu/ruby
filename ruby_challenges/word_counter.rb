@@ -1,4 +1,4 @@
-# i ate something earlier
+# nine lives are fine
 
 TEXT_FILE = "romeo-juliet.txt"
 EXEPTION_FILE = "hamlet.txt"
