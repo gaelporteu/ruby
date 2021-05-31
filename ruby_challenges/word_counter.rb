@@ -1,4 +1,4 @@
-# nine lives are fine
+# thirtyfirst was fantastic
 
 TEXT_FILE = "romeo-juliet.txt"
 EXEPTION_FILE = "hamlet.txt"
