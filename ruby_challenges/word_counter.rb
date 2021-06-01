@@ -1,4 +1,4 @@
-# thirtyfirst was fantastic
+# something new for the first
 
 TEXT_FILE = "romeo-juliet.txt"
 EXEPTION_FILE = "hamlet.txt"
