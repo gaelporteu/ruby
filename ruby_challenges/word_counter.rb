@@ -116,3 +116,5 @@ word_count.sort_by {|word, count| count}
 # ensure # this is a cleanup code if there was an error it reloads the login screen
 #     log("User login")
 # end
+
+# Status
