@@ -117,3 +117,4 @@ word_count.sort_by {|word, count| count}
 #     log("User login")
 # end
 
+# Status
